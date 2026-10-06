@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner circle for depth -->
+  <circle cx="256" cy="256" r="210" fill="url(#shieldGrad)" />
+  
+  <!-- Central WORKMATE "WM" emblem & wrench/hammer icon -->
+  <g fill="#F59E0B">
+    <!-- Stylized Hard Hat / Helmet Arc -->
+    <path d="M160 210 C160 145, 352 145, 352 210 Z" fill="#F59E0B" />
+    <rect x="140" y="210" width="232" height="24" rx="12" fill="#FBBF24" />
+    
+    <!-- Bold Lettering 'W M' -->
+    <path d="M150 260 L180 370 L210 280 L230 280 L260 370 L290 260 L320 260 L280 390 L245 390 L220 305 L195 390 L160 390 L120 260 Z" fill="#FFFFFF" />
+    
+    <!-- Accent Currency Spark -->
+    <circle cx="360" cy="325" r="30" fill="#10B981" />
+    <text x="360" y="337" font-family="Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle">$</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "WORKMATE",
+  "description": "Mobile-friendly worker management application with attendance tracking, daily/monthly wage calculation, expense tracking, and budget enforcement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
